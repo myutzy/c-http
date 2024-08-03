@@ -1,0 +1,47 @@
+# CLion and CMake specific ignores
+.idea/
+cmake-build-debug/
+cmake-build-release/
+CMakeLists.txt.user
+*.cmake
+Makefile
+CMakeCache.txt
+CMakeFiles/
+Testing/
+CTestTestfile.cmake
+cmake_install.cmake
+compile_commands.json
+
+# CLion run/debug configuration
+*.ipr
+*.iws
+*.iml
+
+# macOS specific ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Thumbnails
+._*
+
+# Directories potentially used by CLion
+.vscode/
+
+# C Specific ignores
+*.o
+*.obj
+*.elf
+*.bin
+*.d
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exp
+*.pdb
+*.log
+logs
